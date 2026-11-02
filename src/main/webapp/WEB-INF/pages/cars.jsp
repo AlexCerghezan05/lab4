@@ -25,4 +25,5 @@
             <div class="col">Andrei Pop</div>
         </div>
     </div>
+    <h5>Free parking spots: ${numberOfFreeParkingSpots}</h5>
 </t:pageTemplate>
