@@ -11,10 +11,11 @@
             integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
             crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
 <jsp:include page="/WEB-INF/pages/menu.jsp"/>
 <main class="container-fluid mt-5">
     <jsp:doBody/>
 </main>
+<jsp:include page="/WEB-INF/pages/footer.jsp"/>
 </body>
 </html>
